@@ -1,0 +1,2 @@
+SELECT k.imie, k.nazwisko, z.idzamowienia, z.data 
+FROM klienci as k, zamowienia as z where k.idklienta = z.idklienta
